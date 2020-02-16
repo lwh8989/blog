@@ -1,4 +1,4 @@
-# vuepress-theme-openapi
+# Hellow my word!
 
 > OpenApi specs Vuepress theme
 
