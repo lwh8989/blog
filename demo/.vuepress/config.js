@@ -1,8 +1,8 @@
 const { description } = require('../../package')
 
 module.exports = {
-  title: 'Vuepress OpenApi theme',
-  description: description,
+  title: 'Lee WonHo World',
+  description: 'Lee WonHo World',
 
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
