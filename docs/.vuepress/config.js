@@ -1,14 +1,31 @@
 module.exports = {
-    title: 'wh blog',
-    description: 'fuck you',
+    title: 'DevSigner',
+    description: 'Lee Wonho DevSigner Blog',
     base: '/blog/',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Test', link: '/test/' },
-            { text: 'External', link: 'https://google.com' },
-            { text: 'External', link: 'https://google.com', target:'_self', rel:'' },
-            { text: 'Guide', link: '/guide/', target:'_blank' }
+            {
+                text: 'Develop',
+                ariaLabel: 'Develop Menu',
+                items: [
+                  { text: 'UI Develop', link: '/develop/ui/' },
+                  { text: 'Javascript', link: '/develop/javascript/' },
+                  { text: 'Git', link: '/develop/git/' },
+                  { text: 'Nunjucks', link: '/develop/nunjucks/' }
+                ]
+            },
+            {
+                text: 'Design',
+                ariaLabel: 'Design Menu',
+                items: [
+                  { text: 'Design', link: '/design/design/' },
+                  { text: 'Framer', link: '/design/framer/' },
+                  { text: 'Lottie', link: '/design/lottie/' }
+                ]
+            },
+            { text: 'Book', link: '/book/' },
+            { text: 'Hobby', link: '/hobby/' }
         ],
         sidebar: [
             {
