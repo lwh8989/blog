@@ -3,8 +3,8 @@ module.exports = {
     description: 'Lee Wonho DevSigner Blog',
     base: '/blog/',
     themeConfig: {
+        logo: '/assets/img/logo-small.png',
         nav: [
-            { text: 'Home', link: '/' },
             {
                 text: 'Develop',
                 ariaLabel: 'Develop Menu',
