@@ -15,11 +15,18 @@ module.exports = {
         sidebar: {
             '/markup/': [
                 '',
-                'display',
-                'html',
+                'flex',
+                'flex layout',
+                'grid',
+                'gulp',
+                'gitflow',
+                'nunjucks',
                 'css',
                 'bem',
-                'gulp',
+            ],
+            '/animation/': [
+                '',
+                'lottie',
             ],
         },
         lastUpdated: 'Last Updated', // string | boolean

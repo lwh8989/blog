@@ -3,6 +3,7 @@ sidebarDepth: 3
 ---
 
 # Markup?
+![Markup?](https://dummyimage.com/740x280/0099ff/fff "Markup?")
 마크업 페이지에서는 Html, Css만을 이용해서 다양한 실무 예제 및 방법론을 정리합니다.  
 마크업 개발자들은 종종 이런 말들을 하게 됩니다.  
   
