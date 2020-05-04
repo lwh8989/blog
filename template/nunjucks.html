@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nunjucks |  </title>
+    <meta name="description" content="Lee Wonho DevSigner Blog">
+    <meta name="generator" content="VuePress 1.3.0">
+    
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.8176df8a.css" as="style"><link rel="preload" href="/blog/assets/js/app.2e252c2e.js" as="script"><link rel="preload" href="/blog/assets/js/2.08fc86b9.js" as="script"><link rel="preload" href="/blog/assets/js/26.eb481f70.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.8f08baac.js"><link rel="prefetch" href="/blog/assets/js/11.48d25efb.js"><link rel="prefetch" href="/blog/assets/js/12.f341befb.js"><link rel="prefetch" href="/blog/assets/js/13.6dedd75f.js"><link rel="prefetch" href="/blog/assets/js/14.8a9e03d8.js"><link rel="prefetch" href="/blog/assets/js/15.5b31b2cd.js"><link rel="prefetch" href="/blog/assets/js/16.fccfbfb3.js"><link rel="prefetch" href="/blog/assets/js/17.2e594523.js"><link rel="prefetch" href="/blog/assets/js/18.d3b748ff.js"><link rel="prefetch" href="/blog/assets/js/19.9682e717.js"><link rel="prefetch" href="/blog/assets/js/20.e3c57983.js"><link rel="prefetch" href="/blog/assets/js/21.c57d8a7b.js"><link rel="prefetch" href="/blog/assets/js/22.ecf6f23a.js"><link rel="prefetch" href="/blog/assets/js/23.035ea686.js"><link rel="prefetch" href="/blog/assets/js/24.763d156e.js"><link rel="prefetch" href="/blog/assets/js/25.30b6cae7.js"><link rel="prefetch" href="/blog/assets/js/27.ab31dfd0.js"><link rel="prefetch" href="/blog/assets/js/3.030e9be9.js"><link rel="prefetch" href="/blog/assets/js/4.d6d2be54.js"><link rel="prefetch" href="/blog/assets/js/5.ad2c5558.js"><link rel="prefetch" href="/blog/assets/js/6.f26d5c4e.js"><link rel="prefetch" href="/blog/assets/js/7.a6937e32.js"><link rel="prefetch" href="/blog/assets/js/8.aa377d50.js"><link rel="prefetch" href="/blog/assets/js/9.7dc206ce.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.8176df8a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><img src="https://user-images.githubusercontent.com/40876048/80683502-40ff7b00-8aff-11ea-9b93-873f03cd3433.png" alt=" " class="logo"> <span class="site-name can-hide"> </span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/markup/" class="nav-link">
+  Markup
+</a></div><div class="nav-item"><a href="/blog/template/" class="nav-link router-link-active">
+  Template
+</a></div><div class="nav-item"><a href="/blog/interaction/" class="nav-link">
+  Interaction
+</a></div><div class="nav-item"><a href="/blog/animation/" class="nav-link">
+  Animation
+</a></div><div class="nav-item"><a href="/blog/design/" class="nav-link">
+  Design
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/markup/" class="nav-link">
+  Markup
+</a></div><div class="nav-item"><a href="/blog/template/" class="nav-link router-link-active">
+  Template
+</a></div><div class="nav-item"><a href="/blog/interaction/" class="nav-link">
+  Interaction
+</a></div><div class="nav-item"><a href="/blog/animation/" class="nav-link">
+  Animation
+</a></div><div class="nav-item"><a href="/blog/design/" class="nav-link">
+  Design
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/template/" class="sidebar-link">Template</a></li><li><a href="/blog/template/nunjucks.html" class="active sidebar-link">Nunjucks</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#설치하기" class="sidebar-link">설치하기</a></li><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#task-만들기" class="sidebar-link">Task 만들기</a></li><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#navigation-추가하기" class="sidebar-link">Navigation 추가하기</a></li><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#nunjucks-매크로-추가하기" class="sidebar-link">Nunjucks 매크로 추가하기</a></li><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#데이터로-html-완성하기" class="sidebar-link">데이터로 HTML 완성하기</a></li><li class="sidebar-sub-header"><a href="/blog/template/nunjucks.html#reference" class="sidebar-link">Reference</a></li></ul></li><li><a href="/blog/template/gulp.html" class="sidebar-link">Gulp</a></li><li><a href="/blog/template/git flow.html" class="sidebar-link">Git Flow</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nunjucks"><a href="#nunjucks" class="header-anchor">#</a> Nunjucks</h1> <p><img src="https://user-images.githubusercontent.com/40876048/80806875-bc902380-8bf6-11ea-944f-516ff788bdc5.jpg" alt="nunjucks" title="nunjucks">
+해당 작업은 마크업파트에서 작업을 진행 할때 셋팅한 방법으로 전체적인 내용을 모두 정리는 못하지만 기본적으로 셋팅하는 방법에 대한 가이드내용입니다. 실무 적용 및 공개된 문서에서 추가로 정리해봤습니다.</p> <h2 id="설치하기"><a href="#설치하기" class="header-anchor">#</a> 설치하기</h2> <p>설치함에 있어서 Node.js는 설치되어 있음을 가정으로 시적합니다.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">npm</span> <span class="token function">install</span> --save-dev gulp-nunjucks-render
+</code></pre></div><h2 id="task-만들기"><a href="#task-만들기" class="header-anchor">#</a> Task 만들기</h2> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> nunjucksRender <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'gulp-nunjucks-render'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+JavaScriptCopy
+</code></pre></div><p>다음으로, Nunjuck을 쉽게 사용할 수 있는 프로젝트 구조를 만들어야 하는데,
+아래의 구조대로 따라서 만들어 봤습니다.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>project/
+  <span class="token operator">|</span>- app/
+      <span class="token operator">|</span>- index.html and other .html files
+      <span class="token operator">|</span>- pages/
+      <span class="token operator">|</span>- templates/
+          <span class="token operator">|</span>- partials/
+</code></pre></div><p>templates 폴더는 모든 Nunjucks 부분 및 다른 Nunjucks 파일을 pages폴더에 추가하는 데 사용됩니다.
+pages 폴더는 HTML로 컴파일 할 파일을 저장하는 데 사용됩니다. 일단 컴파일되면 app폴더에 만들어집니다.</p> <p>layout.nunjucks라는 파일을 만들어 templates 폴더에 저장한다. html, head 및 body 태그와 같은 상용구 코드가 있어야 합니다.
+또한, CSS 및 JavaScript 파일에 대한 링크와 같이 모든 페이지에서 유사한 내용을 포함 할 수 있습니다.</p> <p>다음은 작성 예시 입니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- layout.nunjucks --&gt;</span>
+<span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ko<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylesheet<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>css/styles.css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token comment">&lt;!-- 이 콘텐츠 블록에 대한 코드를 다른 파일에 작성한다. --&gt;</span>
+        {% block content %} {% endblock %}
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>jquery/dist/jquery.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>js/main.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>추천하는 방식은 Nunjucks 파일과 부분 파일에 .nunjucks 확장자를 사용하는 것을 좋습니다.
+왜냐하면 Nunjucks를 실행하고 있다는 것을 알고 있기 때문입니다다.<br>
+.nunjucks 혹은 .html로 사용해도 상관없습니다.</p> <p>다음으로, pages 디렉토리에 index.nunjucks 파일을 생성 합니다.<br>
+이 파일은 결국 index.html로 변환되어 app폴더에 저장된다. (조립이 된다고 생각하면 좋습니다.)</p> <p>layouts.nunjucks를 확장하여 layout.nunjucks에 정의 된 상용구 코드를 포함되어야 합니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% extends &quot;layout.nunjucks&quot; %}
+</code></pre></div><p>그런 다음 {% block content %}와 {% endblock %} 사이에 index.nunjucks에 특정한 HTML 코드를 추가 할 수 있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% extends &quot;layout.nunjucks&quot; %}
+
+{% block content %}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>안녕?! 여긴 index page 입니다.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+{% endblock %}
+</code></pre></div><p>Nunjucks 파일 설정이 끝났다. 이제 index.nunjucks를 index.html에 덮는 nunjucks작업을 만들어 줍니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">'nunjucks'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 여기에 nunjucks 요소를 넣는다.</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>nunjucks-render를 사용하면 경로 옵션을 사용하여 템플릿 경로를 지정할 수 있다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">'nunjucks'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 페이지에서 .html 이나 .nunjucks 파일 가져오기</span>
+    <span class="token keyword">return</span> gulp<span class="token punctuation">.</span><span class="token function">src</span><span class="token punctuation">(</span><span class="token string">'app/pages/**/*.+(html|nunjucks)'</span><span class="token punctuation">)</span>
+    <span class="token comment">// nunjucks와 템플릿을 렌더링</span>
+    <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">nunjucksRender</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        path<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'app/templates'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span> 
+    <span class="token comment">// app folder에 출력</span>
+    <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>gulp<span class="token punctuation">.</span><span class="token function">dest</span><span class="token punctuation">(</span><span class="token string">'app'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>이제 명령 줄에서 gulp nunjucks를 실행 해봅니다.<br>
+Gulp는 index.html 파일을 만들어 app 폴더에 저장됩니다.</p> <p>index.html 파일을 열면 다음 코드가 표시된다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ko<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylesheet<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>css/styles.css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>안녕?! 여긴 index page 입니다.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>js/main.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>h1 태그를 제외한 모든 것이 layouts.nunjucks에서 나오는걸 볼 수 있습니다.<br>
+head 태그를 사용하거나 JavaScript를 추가하거나 CSS 파일을 변경해야한다면 layouts.nunjucks에서 할 수 있다는 것을 알면 그에 따라 모든 단일 페이지가 업데이트됩니다.</p> <h2 id="navigation-추가하기"><a href="#navigation-추가하기" class="header-anchor">#</a> Navigation 추가하기</h2> <p>index.nunjucks에 추가하기 전에 부분을 만들어야 합니다.<br>
+navigation.nunjucks라는 부분을 만들어서 templates 폴더에있는 partials 폴더에 저장해 봅시다.<br>
+그런 다음이 부분에 간단한 메뉴를 추가해 봅니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>About<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>이제 네비게이션을 index.nunjucks파일에 추가 해봅니다.<br>
+Nunjucks가 제공하는 {% include &quot;경로 - 부분&quot;%} 문장의 도움으로 부분을 추가 할 수 있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% block content %}
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>안녕?! 여긴 index page 입니다.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- navigation 부분을 추가--&gt;</span>
+{% include &quot;partials/navigation.nunjucks&quot; %}
+
+{% endblock %}
+</code></pre></div><p>gulp nunjucks를 실행하면 이제 다음 코드로 index.html 파일을 가져옵니다.
+네비게이션과 같은 아이템 사용할 때 우리는 페이지에 있을 때 링크 중 하나에 Class를 추가해야하는 상황에 종종있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- active 클래스는  해당 페이지에만 존재 해야한다. --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>active<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>About<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>active 클래스는 해당 페이지에 있는 경우에만 페이지 링크에 존재 해야한다. about 페이지에 있는 경우 active 클래스는 about 링크에만 있어야 한다.</p> <h2 id="nunjucks-매크로-추가하기"><a href="#nunjucks-매크로-추가하기" class="header-anchor">#</a> Nunjucks 매크로 추가하기</h2> <p>먼저 templates 폴더에 있는 macros폴더에 nav-macro.nunjucks파일을 만듭니다. (nav-macro를 사용하여 두 개의 네비게이션 nunjuck 파일을 혼동하지 않도록 합니다.)
+nav-macro.nunjucks파일을 만들면 매크로를 작성할 수 있습니다. 모든 매크로는 다음 태그로 시작하고 끝납니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% macro functionName() %}
+  <span class="token comment">&lt;!-- 여기에 매크로 요소를 넣는다. --&gt;</span>
+{% endmacro %}
+</code></pre></div><p>active라는 매크로를 만듭니다. 네비게이션에 active클래스를 출력하는 것이 목적입니다. activePage라는 하나의 인수를 취해야 하는데, 기본값은 'home'입니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% macro active(activePage='home') %}
+  <span class="token comment">&lt;!-- 여기에 매크로 요소를 넣는다. --&gt;</span>
+{% endmacro %}
+</code></pre></div><p>매크로 내에 작성 될 HTML을 작성합니다. 여기서 Nunjucks가 제공하는 if 함수를 사용하여 active 클래스를 추가해야하는지 확인할 수도 있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% macro active(activePage='home') %}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>{%if activePage == 'home' %} active {% endif %}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- about 과 contact 메뉴에도 반복시킨다. --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+{% endmacro %}
+</code></pre></div><p>매크로 작성이 끝!</p> <p>Nunjucks의 import함수를 사용하여 매크로 파일을 추가합니다. (이전에 부분을 추가 할 때 include함수를 사용했습니다.)<br>
+매크로 파일을 가져올 때 변수로 설정해야합니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- index.nunjucks --&gt;</span>
+{% block content %}
+
+<span class="token comment">&lt;!-- Importing Nunjucks Macro --&gt;</span>
+{% import 'macros/nav-macro.nunjucks' as nav %}
+
+{% endblock %}
+</code></pre></div><p>이 경우 nav 변수를 전체 navigation.nunjucks 매크로 파일로 설정했습니다.<br>
+그런 다음 nav 변수를 사용하여 파일에 기록 된 모든 매크로를 호출 할 수 있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code>{% import 'macros/navigation.nunjucks' as nav %}
+<span class="token comment">&lt;!-- Creating the navigation with activePage = 'home' --&gt;</span>
+{{nav.active('home')}}
+</code></pre></div><p>이 변경으로 gulp nunjucks를 다시 실행하면 다음과 같이 출력되는 것을 볼 수 있습니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span> active <span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>About<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Nunjucks의 템플릿 경험을 향상시키기 위해 할 수있는 일이 한 가지 더 있는데, HTML로 데이터를 채우는 방법 입니다.</p> <h2 id="데이터로-html-완성하기"><a href="#데이터로-html-완성하기" class="header-anchor">#</a> 데이터로 HTML 완성하기</h2> <p>데이터가 포함 된 data.json이라는 파일을 만들어 보자. 이 data.json을 app폴더에 두는 것이 좋습니다.<br>
+이제 데이터를 추가해 보겠다. 이전의 예제 데이터를 사용할 수 있다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;images&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token string">&quot;src&quot;</span><span class="token operator">:</span> <span class="token string">&quot;image-one.png&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;alt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Image one alt text&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;src&quot;</span><span class="token operator">:</span> <span class="token string">&quot;image-two.png&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;alt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Image two alt text&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>그런 다음이 data.json 파일의 데이터를 사용하려면 nunjucks 작업을 약간 조정해야 합니다.
+data.json가 제대로 실행되게 하려면 다른 gulp 플러그인의 도움을 받아야하는데 그 플러그인은 gulp-data 입니다.</p> <p>gulp-data를 설치해보자.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>$ npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev gulp<span class="token operator">-</span>data
+BashCopy
+
+<span class="token keyword">var</span> data <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'gulp-data'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>Gulp-data는 파일을 반환 할 수 있는 함수를 사용합니다.<br>
+Node가 제공하는 require 함수를 사용하여 이 data 파일을 얻을 수 있다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./app/data.json'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>require를 사용하여 node_modules가 아닌 사용자 정의 디렉토리에서 파일을 가져올 때 Node에 디렉토리 경로를 알려줘야합니다.<br>
+여기서는 Node가 현재 디렉토리로 시작하도록 지시 한 ./에서 시작하여 data.json 파일을 찾습니다.</p> <p>gulp-data를 nunjucks 작업에 추가합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">'nunjucks'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> gulp<span class="token punctuation">.</span><span class="token function">src</span><span class="token punctuation">(</span><span class="token string">'app/pages/**/*.+(html|nunjucks)'</span><span class="token punctuation">)</span>
+    <span class="token comment">// Adding data to Nunjucks</span>
+    <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./app/data.json'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">nunjucksRender</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      path<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'app/templates'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>gulp<span class="token punctuation">.</span><span class="token function">dest</span><span class="token punctuation">(</span><span class="token string">'app'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>마지막으로 추가 된 데이터를 사용하도록 index.nunjucks에 마크업을 추가합니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- index.nunjucks --&gt;</span>
+{% block content %}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>gallery<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Loops through &quot;images&quot; array --&gt;</span>
+    {% for image in images %}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>gallery__item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>{{image.src}}<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>{{image.alt}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    {% endfor %}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+{% endblock %}
+</code></pre></div><div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- index.html --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>gallery<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    // 이제 `gulp nunjucks`를 실행하면,
+    // 다음 마크업과 함께 `index.html` 파일을 얻어야 한다.
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>gallery__item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>image-one.png<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Image one alt text<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>gallery__item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>image-two.png<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Image two alt text<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>처음에는 어렵지만 하나하나 따라서 적용하다보면 어떻게 불러와서 화면에 나오게되는지 알 수 있습니다.<br>
+이 작업을 통해서 컴포넌트 단위로 작업을 가능하게 했습니다.</p> <h2 id="reference"><a href="#reference" class="header-anchor">#</a> Reference</h2> <ul><li><a href="https://zellwk.com/blog/nunjucks-with-gulp/" target="_blank" rel="noopener noreferrer">nunjucks with gulp<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/template/" class="prev router-link-active">
+        Template
+      </a></span> <span class="next"><a href="/blog/template/gulp.html">
+        Gulp
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.2e252c2e.js" defer></script><script src="/blog/assets/js/2.08fc86b9.js" defer></script><script src="/blog/assets/js/26.eb481f70.js" defer></script>
+  </body>
+</html>

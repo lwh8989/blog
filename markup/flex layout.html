@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flex layout |  </title>
+    <meta name="description" content="Lee Wonho DevSigner Blog">
+    <meta name="generator" content="VuePress 1.3.0">
+    
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.8176df8a.css" as="style"><link rel="preload" href="/blog/assets/js/app.2e252c2e.js" as="script"><link rel="preload" href="/blog/assets/js/2.08fc86b9.js" as="script"><link rel="preload" href="/blog/assets/js/18.d3b748ff.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.8f08baac.js"><link rel="prefetch" href="/blog/assets/js/11.48d25efb.js"><link rel="prefetch" href="/blog/assets/js/12.f341befb.js"><link rel="prefetch" href="/blog/assets/js/13.6dedd75f.js"><link rel="prefetch" href="/blog/assets/js/14.8a9e03d8.js"><link rel="prefetch" href="/blog/assets/js/15.5b31b2cd.js"><link rel="prefetch" href="/blog/assets/js/16.fccfbfb3.js"><link rel="prefetch" href="/blog/assets/js/17.2e594523.js"><link rel="prefetch" href="/blog/assets/js/19.9682e717.js"><link rel="prefetch" href="/blog/assets/js/20.e3c57983.js"><link rel="prefetch" href="/blog/assets/js/21.c57d8a7b.js"><link rel="prefetch" href="/blog/assets/js/22.ecf6f23a.js"><link rel="prefetch" href="/blog/assets/js/23.035ea686.js"><link rel="prefetch" href="/blog/assets/js/24.763d156e.js"><link rel="prefetch" href="/blog/assets/js/25.30b6cae7.js"><link rel="prefetch" href="/blog/assets/js/26.eb481f70.js"><link rel="prefetch" href="/blog/assets/js/27.ab31dfd0.js"><link rel="prefetch" href="/blog/assets/js/3.030e9be9.js"><link rel="prefetch" href="/blog/assets/js/4.d6d2be54.js"><link rel="prefetch" href="/blog/assets/js/5.ad2c5558.js"><link rel="prefetch" href="/blog/assets/js/6.f26d5c4e.js"><link rel="prefetch" href="/blog/assets/js/7.a6937e32.js"><link rel="prefetch" href="/blog/assets/js/8.aa377d50.js"><link rel="prefetch" href="/blog/assets/js/9.7dc206ce.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.8176df8a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><img src="https://user-images.githubusercontent.com/40876048/80683502-40ff7b00-8aff-11ea-9b93-873f03cd3433.png" alt=" " class="logo"> <span class="site-name can-hide"> </span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/markup/" class="nav-link router-link-active">
+  Markup
+</a></div><div class="nav-item"><a href="/blog/template/" class="nav-link">
+  Template
+</a></div><div class="nav-item"><a href="/blog/interaction/" class="nav-link">
+  Interaction
+</a></div><div class="nav-item"><a href="/blog/animation/" class="nav-link">
+  Animation
+</a></div><div class="nav-item"><a href="/blog/design/" class="nav-link">
+  Design
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/markup/" class="nav-link router-link-active">
+  Markup
+</a></div><div class="nav-item"><a href="/blog/template/" class="nav-link">
+  Template
+</a></div><div class="nav-item"><a href="/blog/interaction/" class="nav-link">
+  Interaction
+</a></div><div class="nav-item"><a href="/blog/animation/" class="nav-link">
+  Animation
+</a></div><div class="nav-item"><a href="/blog/design/" class="nav-link">
+  Design
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/markup/" class="sidebar-link">Markup</a></li><li><a href="/blog/markup/flex.html" class="sidebar-link">Flex</a></li><li><a href="/blog/markup/flex layout.html" class="active sidebar-link">Flex layout</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/markup/flex layout.html#말줄임-text-아이콘-icon-layout" class="sidebar-link">말줄임(text) + 아이콘(icon) Layout</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/markup/flex layout.html#inline-flex-활용" class="sidebar-link">inline-flex 활용</a></li><li class="sidebar-sub-header"><a href="/blog/markup/flex layout.html#ie를-지원해야-하는-경우" class="sidebar-link">IE를 지원해야 하는 경우</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/markup/flex layout.html#reference" class="sidebar-link">Reference</a></li></ul></li><li><a href="/blog/markup/grid.html" class="sidebar-link">Grid Layout</a></li><li><a href="/blog/markup/css.html" class="sidebar-link">CSS</a></li><li><a href="/blog/markup/sass.html" class="sidebar-link">Sass</a></li><li><a href="/blog/markup/less.html" class="sidebar-link">Less</a></li><li><a href="/blog/markup/bem.html" class="sidebar-link">BEM</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="flex-layout"><a href="#flex-layout" class="header-anchor">#</a> Flex layout</h1> <p>기본적으로 flex 속성을 알아봤다면 이제는 활용 해보려고 합니다. 같은 상황을 IE이슈로 인해서 다르게 처리한 방법입니다.</p> <h2 id="말줄임-text-아이콘-icon-layout"><a href="#말줄임-text-아이콘-icon-layout" class="header-anchor">#</a> 말줄임(text) + 아이콘(icon) Layout</h2> <h3 id="inline-flex-활용"><a href="#inline-flex-활용" class="header-anchor">#</a> inline-flex 활용</h3> <p><img src="https://user-images.githubusercontent.com/40876048/80788126-35758800-8bc3-11ea-9681-a2aba728e035.png" alt="말줄임 + 아이콘 형태의 리스트" title="말줄임 + 아이콘 형태의 리스트"> <img src="https://user-images.githubusercontent.com/40876048/80788123-34445b00-8bc3-11ea-9817-f7f694217bb4.png" alt="말줄임 + 아이콘 형태의 리스트" title="말줄임 + 아이콘 형태의 리스트">
+플랫폼 마크업개발을 하게되면 가장많이 접하게되는 스타일 입니다. 영역에서 text와 icon이 같이 정렬 되어있고, flex container인 부모 요소의 영역이 작아지면 flex item인 자식 요소의 텍스트를 모두 표시할 수 없을 때 줄임표(…)가 나타나게 하는 레이아웃입니다.주로 text영역은 말줄임, icon은 고정영역인게 이 레이아웃에 핵심 포인트입니다.</p> <div class="language-html extra-class"><pre class="language-html"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list-fixed<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>title-wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>여기에는 text가 들어갑니다. 내용이 길어 질 경우 말줌임으로 표시가 됩니다.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>icon-wrap<span class="token punctuation">&quot;</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>img<span class="token punctuation">&quot;</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>아이콘이름<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ic-name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>           
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.list-fixed</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 리스트의 기본 골격입니다. */</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 60px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">border-bottom</span><span class="token punctuation">:</span> 1px solid <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.title_wrap</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-flex<span class="token punctuation">;</span> <span class="token comment">/* inline-flex를 부여합니다. */</span>
+    <span class="token property">max-width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.title_wrap .title</span> <span class="token punctuation">{</span>
+    <span class="token property">padding-top</span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
+    <span class="token comment">/* [S] title에 말줄임 관련 속성입니다. */</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+    <span class="token comment">/* [E] title에 말줄임 관련 속성입니다. */</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.icon-wrap</span> <span class="token punctuation">{</span>
+    <span class="token property">margin-left</span><span class="token punctuation">:</span> 4px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>flex container에 display: inline-flex 속성과 max-width: 100% 속성을 적용합니다. 그렇게 되면 text 영역은 가변적으로 변하게 되며 고정영역인 icon에는 겹치지 않게 됩니다. icon갯수가 늘어나도 max-width: 100% 속성때문에 추가 분기 처리없이 화면에 구현됩니다.</p> <h3 id="ie를-지원해야-하는-경우"><a href="#ie를-지원해야-하는-경우" class="header-anchor">#</a> IE를 지원해야 하는 경우</h3> <p>같은 작업이라도 IE의 특정버전까지 지원하게 되면 불필요한 tag가 많이 붙게 됩니다. 그리고 icon의 갯수가 늘어남에 따라 클래스명으로 특정 분기를 줘야 합니다.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list-item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>group<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>group-col group-tit<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token comment">&lt;!-- IE에서는 간격을 자동으로 주지 못하기때문에 갯수에 따라 분기처리가 필요합니다. --&gt;</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tit-icon00<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tit-txt<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>여기에는 text가 들어갑니다. 내용이 길어 질 경우 말줌임으로 표시가 됩니다.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                     <span class="token comment">&lt;!-- tit-icon-wrap영역은 고정영역이니다. --&gt;</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tit-icon-wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ic-name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>          
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.list</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.list-item</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.list-item .group</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token comment">/* flex를 사용못하는 IE에서는 가장 비슷하게 대응 가능한 속성이 table 관련 속성입니다. */</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-table<span class="token punctuation">;</span>
+    <span class="token property">table-layout</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.list-item .group .group-col</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* cell속성을 줌으로써 유동적인 구조가 되니다. */</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> table-cell<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.list-item .group .group-col .tit-txt</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token comment">/* 아아콘의 영역은 고정입니다. 최대값에 아이콘영역값을 빼주시면됩니다. */</span>
+    <span class="token property">max-width</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>100% - 아이콘 간격<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.list-item .group .group-col .tit-icon-wrap</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>코드를 보게되면 같은 UI를 구현함에 있어서 IE는 가변적영역 + 가변적영역 이 구현이 되지 않습니다. 그 이유가 우선 flex관련 속성을 안쓰고 table속성을 사용하게되면 특정 수지를 입력 안하면 전체영역 / 갯수 로 강제로 나눠버립니다. 가변영역 + 고정영역 식으로 나눠서 작업해야합니다. 그 관련 속성으로 width: clac(100% - 00px); 을 이용 해 줍니다.</p> <h2 id="reference"><a href="#reference" class="header-anchor">#</a> Reference</h2> <ul><li><a href="https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90" target="_blank" rel="noopener noreferrer">MDN web doc<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.w3schools.com/cssref/css3_pr_flex.asp" target="_blank" rel="noopener noreferrer">w3school flex<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/30/2020, 12:14:42 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/markup/flex.html" class="prev">
+        Flex
+      </a></span> <span class="next"><a href="/blog/markup/grid.html">
+        Grid Layout
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.2e252c2e.js" defer></script><script src="/blog/assets/js/2.08fc86b9.js" defer></script><script src="/blog/assets/js/18.d3b748ff.js" defer></script>
+  </body>
+</html>
